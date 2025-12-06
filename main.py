@@ -6,8 +6,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 
 # === PUT YOUR TOKENS IN ENVIRONMENT VARIABLES! ===
 import os
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_TELEGRAM_BOT_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-openai-key-here")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8098721214:AAGskndtHxjgLpHJtrU67rol9EbhstiW9_k")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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")
 
 openai.api_key = OPENAI_API_KEY
 
